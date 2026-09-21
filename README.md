@@ -97,7 +97,7 @@ The Kaplan–Meier analysis showed a difference in overall survival between TP53
 
 **Log-rank p = 0.036**
 
-![Kaplan-Meier survival curve](https://github.com/yound1231/luad-survival-analysis/blob/master/results/tp53_kaplan_meier.png)
+![Kaplan-Meier survival curve](results/tp53_kaplan_meier.png)
 
 ### Stratified Cox Model
 
