@@ -186,3 +186,25 @@ This project demonstrates a practical survival-analysis workflow using cancer ge
 **data integration → Kaplan–Meier estimation → log-rank testing → Cox regression → assumption checking → stratified modeling → interpretation**
 
 The project also highlights the importance of checking model assumptions rather than relying solely on the results of an initial statistical model.
+
+## References
+
+### Data Sources
+
+- The Cancer Genome Atlas (TCGA) Lung Adenocarcinoma (LUAD) dataset
+- cBioPortal for Cancer Genomics  
+  https://www.cbioportal.org/
+
+### Methods
+
+- Kaplan–Meier survival analysis and log-rank test were performed using the `lifelines` Python package.
+- Cox proportional hazards regression was performed using the `lifelines` Python package.
+- Proportional hazards assumptions were evaluated using Schoenfeld residual-based tests implemented in `lifelines`.
+
+### Software
+
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- lifelines
